@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caladea", serif;
+}
+.banner {
+  width: 100%;
+  height: 550px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent),
+    url("images/bryggehavn.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+  position: relative;
+}
+
+.toptext {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 250px 0px 0px 0px;
+  color: black;
+  text-shadow: white 2px 2px 5px;
+  font-size: 50px;
+}
+
+.undertext {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  text-shadow: white 2px 2px 5px;
+  font-size: 20px;
+}
+
+#stylinginfo {
+  display: flex;
+  flex-direction: column;
+  background: #457b9d;
+  width: 100%;
+  height: 500px;
+  padding-top: 20px;
+  border-bottom: #2b2839 1px solid;
+  box-shadow: #2b2839 1px 5px 20px;
+}
+.active {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  font-family: "Caladea", serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Caladea", serif;
+}
+
+.imgI {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 188px;
+}
+#paviljong {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#nordnes {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#bryggen {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  width: 150px;
+  padding: 20px;
+}
+
+#card {
+  background: #bd514d;
+  width: 450px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 20px solid #457b9d;
+  box-shadow: 0px 0px 20px black;
+}
+
+.info {
+  color: #2b2839;
+  font-size: 25px;
+}
+
+.show {
+  font-size: 20px;
+  margin-top: 16px;
+}
+.phototext {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  line-height: 20px;
+  color: black;
+  text-shadow: 0px 0px 1px white;
+}
+
+.name {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.aktiviteter {
+  border-bottom: white solid 3px;
+  border: 0 auto;
+  font-size: 30px;
+  color: black;
+  text-shadow: 0px 0px 2px white;
+  letter-spacing: 4px;
+}
+
+.bergensk {
+  margin-top: 50px;
+  text-align: center;
+}
